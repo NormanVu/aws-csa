@@ -58,3 +58,21 @@ Must disable Source/Destination Check
 
 ### Security Groups - cross security group
 VPC > Security Group > Inbound Rules > add group ID of other security group
+
+
+-------------------------------
+QUIZ 7 - VPC
+### Security groups act like a firewall at the instance level whereas ___ are an additional layer of security that act at the subnet level
+Network ACLs
+
+### How many VPC's am I allowed in each AWS Region by default?
+5
+
+### VPC stands for
+Virtual Private Cloud
+
+### How many internet gateways can I attach to my custom VPC
+1
+
+### You have a VPC with both public and private subnets. You have 3 EC2 instances that have been deployed in to the public subnet and each has internet access. You deploy a 4th instance using the same AMI and this instance does not have internet access. What could be the cause of this?
+The instance needs either an Elastic IP address/Public IP address assigned to it.
